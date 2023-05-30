@@ -15,7 +15,7 @@
 
 # Задача 2 
 number = int(input('введите  '))
-i = 2
+i = 3
 f_one = 0
 f_two = 1
 answer = f_one + f_two
@@ -26,5 +26,6 @@ while answer <= number:
     i += 1
 if number == answer:
     print(i)
-print(-1)
+else:
+    print(-1)
 
