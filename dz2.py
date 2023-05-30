@@ -15,6 +15,7 @@
 #     print(count_one)
 
 # Задача 12
+
 # s = int(input('введите сумму '))
 # p = int(input('введите произведение '))
 # for i in range(s):
