@@ -61,20 +61,20 @@
 
 #  st = 1 + increse = random (-3 , 3)
 
-from random import randint
-days = int(input('введите количество дней '))
-temp = 1
-count = 0
-total_days = 0
-for i in range(days):
-    temp = temp + randint(-3, 3)
-    print(temp)
-    if temp > 0:
-        count += 1
-    else:
-        count = 0
+# from random import randint
+# days = int(input('введите количество дней '))
+# temp = 1
+# count = 0
+# total_days = 0
+# for i in range(days):
+#     temp = temp + randint(-3, 3)
+#     print(temp)
+#     if temp > 0:
+#         count += 1
+#     else:
+#         count = 0
 
-    if total_days < count:
-        total_days = count 
+#     if total_days < count:
+#         total_days = count 
 
-print(total_days)
+# print(total_days)
