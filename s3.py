@@ -38,7 +38,56 @@
 # print(numbers)
 
 # my_string = ['qwqwqw']
-my_string = 'qwqwqw'
-print(my_string)
-my_string = list(my_string)
-print(my_string)
+# my_string = 'qwqwqw'
+# print(my_string)
+# my_string = list(my_string)
+# print(my_string)
+
+# Задача 
+# Сдвиг последовательности на к элементов
+
+# (список)
+
+# from random import randint
+# lis = list()
+# lens = int(input("введите длину списка:"))
+# for i in range(lens):
+#     lis.append(randint(0, 10))
+# print(lis)
+# k = int(input("Введите длину отступа:"))
+# for i in range(k):
+#     lis.insert(0,lis.pop(len(lis)-1))
+# print(lis)
+
+# Задача печать всех уникальных значений в словаресловари
+
+# my_dict = [{"V": "S001"}, {"V": "S002"}, {"VI": "S001"},{"VI": "S005"}, {"VII": "S005"}, {" V ":"S009"}, {" VIII":"S007"}]
+# my_list = []
+# for i in range(len(my_dict)):
+#     my_list += my_dict[i].values()
+# print(set(my_list))
+
+# my_dict = [{"V": "S001"}, {"V": "S002"}, {"VI": "S001"},{"VI": "S005"}, {"VII": "S005"}, {" V ":"S009"}, {" VIII":"S007"}]
+# new_list = []
+# for item in my_dict:
+#     for values in item.values():
+#         new_list.append(values)
+# print(new_list)
+
+# Задача 
+# Дан список, состоящий из целых чисел. Напишите
+# программу, которая подсчитает количество
+# элементов массива, больших предыдущего 
+# (элемента  с предыдущим номером) 
+
+# from random import randint
+# lis = list()
+# lens = int(input("введите длину списка:"))
+# for i in range(lens):
+#     lis.append(randint(0, 10))
+# count = 0
+# print(lis)
+# for i in range(len(lis)-1):
+#     if lis[i + 1] > lis[i]:
+#         count += 1
+# print(count)
